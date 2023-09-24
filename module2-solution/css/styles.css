@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px;
+}
+
+h2 {
+  float: right;
+  border: 1px black;
+  font-size: 110%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 10px;
+}
+
+section{
+  background-color: #779eb2;
+  height: 150px;
+  overflow: auto;
+  margin: 10px;
+  border: 1px solid #253f4b
+}
+
+#value1 {
+  background-color: #03396c;
+}
+
+#value2 {
+  background-color: #005b96;
+}
+
+#value3 {
+  background-color: #011f4b;
+}
+
+p {
+    clear: right; 
+    color: white;
+    width: 90%;
+    padding: 5px;
+    text-align: left;
+    font-family: Courier New;
+  }
+  
+  /****** LRG DEVICE ******/
+  @media (min-width: 992px) {
+    .col-lg-3 {
+        width:33.33%;
+        float:left;
+        padding:15px;
+      }
+  }
+
+  /****** MID DEVICE ******/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float:left;
+        padding:15px;
+      }
+    .col-md-12 {
+        width: 100%;
+        float:left;
+        padding:15px;
+      }
+
+  }
+
+  /****** SML DEVICE ******/
+  @media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        float:left;
+        padding:15px;
+      }
+  }
