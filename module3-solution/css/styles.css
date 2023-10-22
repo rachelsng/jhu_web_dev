@@ -1,0 +1,54 @@
+/** HEADER **/
+#header-nav {
+  background-color: #a0c3e2;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: "Roboto", serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: auto;
+  padding: 20px 40px 20px 40px;
+  background-color:#d9dad9;
+  overflow: hidden;
+}
+/* END HOME PAGE */
+
+/********** Extra small devices only **********/
+#collapsable-nav a {
+  /* Collapsed nav menu text */
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  /* Collapsed nav menu glyph */
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+#nav-list a{
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
